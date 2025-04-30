@@ -525,11 +525,22 @@
         gap: 1rem;
         justify-content: center;
         border-radius: 1.2rem;
-        padding: 1.4rem 2.4rem;
+        padding: 1.1rem 2.4rem;
         background: #edf5fe;
+        border: 0.1rem solid transparent;
         @include mobile {
             padding: 0.8rem;
         }
+        @include  medium-desktop{
+            padding: 0.8rem 2.4rem;
+        }
+    }
+
+    // .goods__slide-content-btn--not
+
+    &__slide-content-btn--not{
+        background:#FFF;
+        border: 0.1rem solid #4092f1;
     }
 
     // .goods__slide-content-btn-svg-box
@@ -569,7 +580,7 @@
         gap: 0.8rem;
         @include medium-desktop {
             gap: 0.4rem;
-            height: 4.8rem;
+  
         }
     }
 
@@ -630,7 +641,7 @@
         color: #000;
         border: 1px solid #eceff8;
         border-radius: 0.7rem;
-        padding: 1.3rem;
+        padding: 1.1rem;
         flex-grow: 1;
         justify-content: center;
 

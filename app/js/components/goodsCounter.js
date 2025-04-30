@@ -4,7 +4,7 @@ const goodsCounter = () => {
     parrent.addEventListener('click', (e) => {
         let target = e.target;
         console.log(target);
-        if (target.classList.contains('goods__slide-content-btn')) {
+        if (target.classList.contains('goods__slide-content-btn')&&!target.classList.contains('goods__slide-content-btn--not')) {
             target.parentElement.classList.add('active');
         }
 
