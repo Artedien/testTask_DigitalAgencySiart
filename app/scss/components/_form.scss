@@ -1,0 +1,333 @@
+.form {
+    padding: 6.8rem 0;
+    // .form__container
+    @include medium-desktop {
+        padding: 4.8rem 0;
+    }
+
+    @include small-tablet {
+        padding: 2.4rem 0;
+    }
+
+    &__container {
+    }
+
+    // .form__inner
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 3.2rem;
+        border: 0.1rem solid #4092f1;
+        border-radius: 2.4rem;
+        @include medium-desktop {
+            gap: 1.6rem;
+            padding: 1.6rem 2.4rem;
+        }
+        @include small-desktop {
+            padding: 1.6rem;
+            gap: 2.8rem;
+        }
+    }
+
+    // .form__title-box
+
+    &__title-box {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        @include small-desktop {
+            gap: 1.2rem;
+        }
+        @include small-tablet {
+            gap: 1.6rem;
+        }
+    }
+
+    // .form__title-img-box
+
+    &__title-img-box {
+        width: 6rem;
+        height: 6rem;
+        @include medium-desktop {
+            width: 4.8rem;
+            height: 4.8rem;
+        }
+        @include small-desktop {
+            width: 3.6rem;
+            height: 3.6rem;
+        }
+    }
+
+    // .form__title-img
+
+    &__title-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    // .form__title-wrapper
+
+    &__title-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        font-family: 'Inter', sans-serif;
+        @include small-desktop {
+            gap: 0;
+        }
+    }
+
+    // .form__title
+
+    &__title {
+        font-weight: 500;
+        font-size: 2rem;
+        color: #000;
+        @include medium-desktop {
+            font-size: 1.6rem;
+        }
+        @include small-tablet {
+            font-size: 1.4rem;
+        }
+    }
+
+    // .form__title-desc
+
+    &__title-desc {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #6a727b;
+        @include medium-desktop {
+            font-size: 1.4rem;
+        }
+    }
+
+    // .form__form
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        @include medium-desktop {
+            gap: 1.6rem;
+        }
+    }
+
+    // .form__input-box
+
+    &__input-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3.2rem 1.2rem;
+        @include medium-desktop {
+            gap: 2.8rem 1.2rem;
+        }
+        @include small-tablet {
+            display: flex;
+            flex-direction: column;
+            gap: 2.4rem;
+        }
+    }
+
+    // .form__input-label
+
+    &__input-label {
+        position: relative;
+        width: 100%;
+        &.form__error {
+            & .form__input {
+                background: #faf1f1;
+            }
+            & .form__input-error-text {
+                opacity: 1;
+            }
+        }
+    }
+
+    // .form__input
+
+    &__input {
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #6a727b;
+        border-radius: 1.2rem;
+        padding: 1.4rem 1.6rem;
+        background: #f5f8fa;
+        transition: background 0.3s;
+        @include medium-desktop {
+            font-size: 1.4rem;
+            border-radius: 0.8rem;
+            padding: 1.2rem 1.6rem;
+        }
+    }
+
+    // .form__input--required
+
+    &__input--required {
+    }
+
+    // .form__input-name
+
+    &__input-name {
+    }
+
+    // .form__input-error-text
+
+    &__input-error-text {
+        position: absolute;
+        opacity: 0;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 133%;
+        color: #ed5858;
+        transition: opacity 0.3s;
+        left: 0;
+        bottom: -1.6rem;
+
+        @include medium-desktop {
+            bottom: -1.2rem;
+            font-size: 1rem;
+        }
+    }
+
+    // .form__input-tel
+
+    &__input-tel {
+    }
+
+    // .form__input-email
+
+    &__input-email {
+    }
+
+    // .form__input-textarea
+
+    &__input-textarea {
+        grid-column: span 3;
+        resize: none;
+        height: 13.2rem;
+        @include medium-desktop {
+            height: 6.8rem;
+        }
+        @include small-tablet {
+            height: 10.8rem;
+        }
+    }
+
+    // .form__btn-box
+
+    &__btn-box {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    // .form__submit-btn
+
+    &__submit-btn {
+        border-radius: 1.2rem;
+        padding: 1.4rem 7rem;
+        background: #4092f1;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        @include medium-desktop {
+            border-radius: 0.8rem;
+            padding: 0.8rem 6.1rem;
+            font-size: 1.4rem;
+        }
+        @include small-desktop {
+            padding: 0.8rem 4.9rem;
+        }
+    }
+
+    // .form__agree-label
+
+    &__agree-label {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+        position: relative;
+        cursor: pointer;
+        &.form__error {
+            & .form__agree-squere {
+                background: #faf1f1;
+            }
+        }
+    }
+
+    // .form__agree-checkbox
+
+    &__agree-checkbox {
+        position: absolute;
+        display: block;
+        inset: 0;
+        opacity: 0;
+        &:checked ~ .form__agree-squere {
+            background: #edf5fe!important;
+            &::before {
+                scale: 1;
+            }
+        }
+    }
+
+    // .form__agree-squere
+
+    &__agree-squere {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.4rem;
+        width: 2rem;
+        height: 2rem;
+        background: #edf5fe;
+        transition: background 0.3s;
+        position: relative;
+        &::before {
+            content: '';
+            background: url('../icons/form-check.svg');
+            width: 1rem;
+            height: 1rem;
+            position: absolute;
+            scale: 0;
+            transition: scale 0.3s;
+        }
+    }
+
+    // .form__agree-text
+
+    &__agree-text {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 143%;
+        color: #6a727b;
+        @include medium-desktop {
+            font-size: 1.2rem;
+        }
+        @include mobile {
+            width: 19.3rem;
+        }
+    }
+
+    // .form__agree-link
+
+    &__agree-link {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}

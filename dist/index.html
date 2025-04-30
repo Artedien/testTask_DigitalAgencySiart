@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <script defer src="js/script.min.js"></script>
+        <title>Тестовое задание</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <main class="main">
+                <section class="goods">
+                    <div class="goods__container container">
+                        <div class="goods__inner">
+                            <div class="goods__title-box">
+                                <h2 class="goods__title">Новые поступления</h2>
+                                <div class="goods__nav-box">
+                                    <div class="goods__swiper-btn goods__swiper-btn-prev swiper-button-prev">
+                                        <img src="../icons/swiper-prev-arrow.svg" alt="" class="" />
+                                    </div>
+                                    <div class="goods__swiper-btn goods__swiper-btn-next swiper-button-next">
+                                        <img src="../icons/swiper-next-arrow.svg" alt="" class="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="goods__swiper-box">
+                                <div class="goods__swiper swiper">
+                                    <div class="goods__swiper-wrapper swiper-wrapper">
+                                        <div class="goods__swiper-slide swiper-slide">
+                                            <div class="goods__slide-inner">
+                                                <div class="goods__slide-btn-box">
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="12"
+                                                            height="13"
+                                                            viewBox="0 0 12 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M0 7.14346C0 6.76111 0.311454 6.45115 0.695653 6.45115C1.07985 6.45115 1.39131 6.76111 1.39131 7.14346V11.8101C1.39131 12.1925 1.07985 12.5024 0.695653 12.5024C0.311454 12.5024 0 12.1925 0 11.8101V7.14346Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M5.30439 1.19475C5.30439 0.812397 5.61584 0.502441 6.00004 0.502441C6.38424 0.502441 6.69569 0.812398 6.69569 1.19475V11.8101C6.69569 12.1925 6.38424 12.5024 6.00004 12.5024C5.61584 12.5024 5.30439 12.1925 5.30439 11.8101V1.19475Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M10.6087 4.37425C10.6087 3.9919 10.9201 3.68194 11.3043 3.68194C11.6885 3.68194 12 3.9919 12 4.37425V11.8101C12 12.1925 11.6885 12.5024 11.3043 12.5024C10.9201 12.5024 10.6087 12.1925 10.6087 11.8101V4.37425Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="16"
+                                                            height="13"
+                                                            viewBox="0 0 16 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                clip-rule="evenodd"
+                                                                d="M4.11267 0.545537C2.4224 0.803515 1.10545 2.02488 0.733163 3.67971C0.643227 4.07954 0.64469 4.84505 0.736176 5.2641C0.82878 5.68814 0.916965 5.93318 1.12674 6.34922C1.43431 6.95932 1.81337 7.40419 2.80587 8.31983C3.81999 9.25546 4.92777 10.2046 6.63577 11.6012C7.173 12.0405 7.65017 12.4192 7.69615 12.4428C7.81291 12.5027 8.08392 12.522 8.21418 12.4798C8.33135 12.4418 8.45015 12.3508 9.46315 11.5226C11.6235 9.75645 13.4183 8.17476 14.0809 7.45314C14.4781 7.02062 14.6866 6.72862 14.8892 6.32104C15.0788 5.93969 15.1757 5.66492 15.266 5.25184C15.3493 4.87069 15.3566 4.10091 15.2804 3.74211C15.0141 2.48948 14.2278 1.47333 13.1022 0.927359C11.9965 0.391055 10.7369 0.361207 9.6122 0.844693C9.11902 1.05667 8.77136 1.29712 8.28021 1.76592L8.00082 2.03255L7.69193 1.73813C7.22285 1.29103 6.84847 1.03717 6.34329 0.82361C5.67377 0.540605 4.83235 0.4357 4.11267 0.545537ZM5.18983 1.81471C5.6146 1.88621 5.97242 2.02626 6.32123 2.25752C6.41593 2.32032 6.75168 2.62114 7.06734 2.92601C7.49995 3.3438 7.66954 3.48966 7.75606 3.51821C7.91588 3.57097 8.16562 3.56418 8.28695 3.50378C8.3422 3.47627 8.63275 3.21646 8.93263 2.92644C9.23251 2.63641 9.56387 2.33951 9.66899 2.26668C9.92155 2.09165 10.2406 1.94952 10.5793 1.86107C10.8149 1.79957 10.9162 1.789 11.2714 1.789C11.6304 1.789 11.7269 1.79929 11.9745 1.86378C13.2971 2.20837 14.1617 3.41998 14.0242 4.73611C13.9685 5.26869 13.7546 5.8099 13.4298 6.24023C13.1407 6.62315 12.2916 7.43773 11.1558 8.42167C10.0626 9.36882 8.04742 11.042 7.99999 11.042C7.98607 11.042 7.64785 10.7735 7.24839 10.4452C4.74098 8.38486 3.02781 6.84638 2.57925 6.25221C2.06877 5.576 1.86201 4.75167 2.00624 3.96759C2.26847 2.54182 3.71169 1.56586 5.18983 1.81471Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="goods__slide-image-wrapper">
+                                                    <div class="goods__slide-image-box">
+                                                        <img src="../images/swiper-img1.png" alt="" />
+                                                    </div>
+                                                    <button class="goods__slide-image-hover-btn">
+                                                        <img src="../icons/card-zoom.svg" alt="" class="goods__slide-image" />
+                                                        <p>Быстрый просмотр</p>
+                                                    </button>
+                                                    <div class="goods__slide-image-info-wrapper">
+                                                        <div class="goods__slide-image-info-box">
+                                                            <p class="goods__slide-image-info-text">Арт. 4501390</p>
+                                                        </div>
+                                                        <div class="goods__slide-image-info-box">
+                                                            <div class="goods__slide-image-info-svg-box">
+                                                                <img src="../icons/card-chat.svg" alt="" />
+                                                            </div>
+                                                            <p class="goods__slide-image-info-text">5</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods__slide-content-box">
+                                                    <p class="goods__slide-content-title">
+                                                        Ингалятор компрессорный<br />
+                                                        компактный MED-125
+                                                    </p>
+                                                    <div class="goods__slide-content-info-box">
+                                                        <ul class="goods__slide-content-list">
+                                                            <li class="goods__slide-content-item goods__slide-content-item--inStock">
+                                                                В наличии
+                                                            </li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--hit">Хит</li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--not">
+                                                                Нет в наличии
+                                                            </li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--new">Новинка</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--percent">%</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--action">Акция</li> -->
+                                                        </ul>
+                                                        <div class="goods__slide-content-price-box">
+                                                            <p class="goods__slide-price-new">24 529 ₽<span>шт.</span></p>
+                                                            <p class="goods__slide-price-old">1 494 ₽</p>
+                                                        </div>
+                                                        <div class="goods__slide-order-wrapper">
+                                                            <button class="goods__slide-content-btn">
+                                                                <div class="goods__slide-content-btn-svg-box">
+                                                                    <img src="../icons/card-basket.svg" alt="" class="" />
+                                                                </div>
+                                                                <p class="goods__slide-content-btn-text">В корзину</p>
+                                                            </button>
+                                                            <div class="goods__slide-counter">
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--min">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="3"
+                                                                        viewBox="0 0 18 3"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <line
+                                                                            x1="1"
+                                                                            y1="1.50433"
+                                                                            x2="17"
+                                                                            y2="1.50433"
+                                                                            stroke="black"
+                                                                            stroke-width="2"
+                                                                            stroke-linecap="round"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                                <p class="goods__slide-counter-number">1</p>
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--plus">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="18"
+                                                                        viewBox="0 0 18 18"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M0 9.00433C0 8.45205 0.447715 8.00433 1 8.00433H17C17.5523 8.00433 18 8.45205 18 9.00433C18 9.55662 17.5523 10.0043 17 10.0043H1C0.447715 10.0043 0 9.55662 0 9.00433Z"
+                                                                            fill="black"
+                                                                        />
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M9 18.0043C8.44772 18.0043 8 17.5566 8 17.0043V1.00433C8 0.452049 8.44772 0.0043335 9 0.0043335C9.55228 0.0043335 10 0.452049 10 1.00433V17.0043C10 17.5566 9.55228 18.0043 9 18.0043Z"
+                                                                            fill="black"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="goods__swiper-slide swiper-slide">
+                                            <div class="goods__slide-inner">
+                                                <div class="goods__slide-btn-box">
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="12"
+                                                            height="13"
+                                                            viewBox="0 0 12 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M0 7.14346C0 6.76111 0.311454 6.45115 0.695653 6.45115C1.07985 6.45115 1.39131 6.76111 1.39131 7.14346V11.8101C1.39131 12.1925 1.07985 12.5024 0.695653 12.5024C0.311454 12.5024 0 12.1925 0 11.8101V7.14346Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M5.30439 1.19475C5.30439 0.812397 5.61584 0.502441 6.00004 0.502441C6.38424 0.502441 6.69569 0.812398 6.69569 1.19475V11.8101C6.69569 12.1925 6.38424 12.5024 6.00004 12.5024C5.61584 12.5024 5.30439 12.1925 5.30439 11.8101V1.19475Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M10.6087 4.37425C10.6087 3.9919 10.9201 3.68194 11.3043 3.68194C11.6885 3.68194 12 3.9919 12 4.37425V11.8101C12 12.1925 11.6885 12.5024 11.3043 12.5024C10.9201 12.5024 10.6087 12.1925 10.6087 11.8101V4.37425Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="16"
+                                                            height="13"
+                                                            viewBox="0 0 16 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                clip-rule="evenodd"
+                                                                d="M4.11267 0.545537C2.4224 0.803515 1.10545 2.02488 0.733163 3.67971C0.643227 4.07954 0.64469 4.84505 0.736176 5.2641C0.82878 5.68814 0.916965 5.93318 1.12674 6.34922C1.43431 6.95932 1.81337 7.40419 2.80587 8.31983C3.81999 9.25546 4.92777 10.2046 6.63577 11.6012C7.173 12.0405 7.65017 12.4192 7.69615 12.4428C7.81291 12.5027 8.08392 12.522 8.21418 12.4798C8.33135 12.4418 8.45015 12.3508 9.46315 11.5226C11.6235 9.75645 13.4183 8.17476 14.0809 7.45314C14.4781 7.02062 14.6866 6.72862 14.8892 6.32104C15.0788 5.93969 15.1757 5.66492 15.266 5.25184C15.3493 4.87069 15.3566 4.10091 15.2804 3.74211C15.0141 2.48948 14.2278 1.47333 13.1022 0.927359C11.9965 0.391055 10.7369 0.361207 9.6122 0.844693C9.11902 1.05667 8.77136 1.29712 8.28021 1.76592L8.00082 2.03255L7.69193 1.73813C7.22285 1.29103 6.84847 1.03717 6.34329 0.82361C5.67377 0.540605 4.83235 0.4357 4.11267 0.545537ZM5.18983 1.81471C5.6146 1.88621 5.97242 2.02626 6.32123 2.25752C6.41593 2.32032 6.75168 2.62114 7.06734 2.92601C7.49995 3.3438 7.66954 3.48966 7.75606 3.51821C7.91588 3.57097 8.16562 3.56418 8.28695 3.50378C8.3422 3.47627 8.63275 3.21646 8.93263 2.92644C9.23251 2.63641 9.56387 2.33951 9.66899 2.26668C9.92155 2.09165 10.2406 1.94952 10.5793 1.86107C10.8149 1.79957 10.9162 1.789 11.2714 1.789C11.6304 1.789 11.7269 1.79929 11.9745 1.86378C13.2971 2.20837 14.1617 3.41998 14.0242 4.73611C13.9685 5.26869 13.7546 5.8099 13.4298 6.24023C13.1407 6.62315 12.2916 7.43773 11.1558 8.42167C10.0626 9.36882 8.04742 11.042 7.99999 11.042C7.98607 11.042 7.64785 10.7735 7.24839 10.4452C4.74098 8.38486 3.02781 6.84638 2.57925 6.25221C2.06877 5.576 1.86201 4.75167 2.00624 3.96759C2.26847 2.54182 3.71169 1.56586 5.18983 1.81471Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="goods__slide-image-wrapper">
+                                                    <div class="goods__slide-image-box">
+                                                        <img src="../images/swiper-img2.png" alt="" />
+                                                    </div>
+                                                    <button class="goods__slide-image-hover-btn">
+                                                        <img src="../icons/card-zoom.svg" alt="" class="goods__slide-image" />
+                                                        <p>Быстрый просмотр</p>
+                                                    </button>
+                                                    <div class="goods__slide-image-info-wrapper">
+                                                        <div class="goods__slide-image-info-box">
+                                                            <p class="goods__slide-image-info-text">Арт. 4501390</p>
+                                                        </div>
+                                                        <div class="goods__slide-image-info-box">
+                                                            <div class="goods__slide-image-info-svg-box">
+                                                                <img src="../icons/card-chat.svg" alt="" />
+                                                            </div>
+                                                            <p class="goods__slide-image-info-text">5</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods__slide-content-box">
+                                                    <p class="goods__slide-content-title">
+                                                        Облучатель-рециркулятор<br />
+                                                        медицинский СH111-115
+                                                    </p>
+                                                    <div class="goods__slide-content-info-box">
+                                                        <ul class="goods__slide-content-list">
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--inStock">
+                                                                В наличии
+                                                            </li> -->
+                                                            <li class="goods__slide-content-item goods__slide-content-item--not">
+                                                                Нет в наличии
+                                                            </li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--hit">Хит</li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--new">Новинка</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--percent">%</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--action">Акция</li>  -->
+                                                        </ul>
+                                                        <div class="goods__slide-content-price-box">
+                                                            <p class="goods__slide-price-new">6 284 ₽<span>шт.</span></p>
+                                                            <p class="goods__slide-price-old">1 494 ₽</p>
+                                                        </div>
+                                                        <div class="goods__slide-order-wrapper">
+                                                            <button class="goods__slide-content-btn">
+                                                                <div class="goods__slide-content-btn-svg-box">
+                                                                    <img src="../icons/card-basket.svg" alt="" class="" />
+                                                                </div>
+                                                                <p class="goods__slide-content-btn-text">В корзину</p>
+                                                            </button>
+                                                            <div class="goods__slide-counter">
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--min">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="3"
+                                                                        viewBox="0 0 18 3"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <line
+                                                                            x1="1"
+                                                                            y1="1.50433"
+                                                                            x2="17"
+                                                                            y2="1.50433"
+                                                                            stroke="black"
+                                                                            stroke-width="2"
+                                                                            stroke-linecap="round"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                                <p class="goods__slide-counter-number">1</p>
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--plus">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="18"
+                                                                        viewBox="0 0 18 18"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M0 9.00433C0 8.45205 0.447715 8.00433 1 8.00433H17C17.5523 8.00433 18 8.45205 18 9.00433C18 9.55662 17.5523 10.0043 17 10.0043H1C0.447715 10.0043 0 9.55662 0 9.00433Z"
+                                                                            fill="black"
+                                                                        />
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M9 18.0043C8.44772 18.0043 8 17.5566 8 17.0043V1.00433C8 0.452049 8.44772 0.0043335 9 0.0043335C9.55228 0.0043335 10 0.452049 10 1.00433V17.0043C10 17.5566 9.55228 18.0043 9 18.0043Z"
+                                                                            fill="black"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="goods__swiper-slide swiper-slide">
+                                            <div class="goods__slide-inner">
+                                                <div class="goods__slide-btn-box">
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="12"
+                                                            height="13"
+                                                            viewBox="0 0 12 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M0 7.14346C0 6.76111 0.311454 6.45115 0.695653 6.45115C1.07985 6.45115 1.39131 6.76111 1.39131 7.14346V11.8101C1.39131 12.1925 1.07985 12.5024 0.695653 12.5024C0.311454 12.5024 0 12.1925 0 11.8101V7.14346Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M5.30439 1.19475C5.30439 0.812397 5.61584 0.502441 6.00004 0.502441C6.38424 0.502441 6.69569 0.812398 6.69569 1.19475V11.8101C6.69569 12.1925 6.38424 12.5024 6.00004 12.5024C5.61584 12.5024 5.30439 12.1925 5.30439 11.8101V1.19475Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M10.6087 4.37425C10.6087 3.9919 10.9201 3.68194 11.3043 3.68194C11.6885 3.68194 12 3.9919 12 4.37425V11.8101C12 12.1925 11.6885 12.5024 11.3043 12.5024C10.9201 12.5024 10.6087 12.1925 10.6087 11.8101V4.37425Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="16"
+                                                            height="13"
+                                                            viewBox="0 0 16 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                clip-rule="evenodd"
+                                                                d="M4.11267 0.545537C2.4224 0.803515 1.10545 2.02488 0.733163 3.67971C0.643227 4.07954 0.64469 4.84505 0.736176 5.2641C0.82878 5.68814 0.916965 5.93318 1.12674 6.34922C1.43431 6.95932 1.81337 7.40419 2.80587 8.31983C3.81999 9.25546 4.92777 10.2046 6.63577 11.6012C7.173 12.0405 7.65017 12.4192 7.69615 12.4428C7.81291 12.5027 8.08392 12.522 8.21418 12.4798C8.33135 12.4418 8.45015 12.3508 9.46315 11.5226C11.6235 9.75645 13.4183 8.17476 14.0809 7.45314C14.4781 7.02062 14.6866 6.72862 14.8892 6.32104C15.0788 5.93969 15.1757 5.66492 15.266 5.25184C15.3493 4.87069 15.3566 4.10091 15.2804 3.74211C15.0141 2.48948 14.2278 1.47333 13.1022 0.927359C11.9965 0.391055 10.7369 0.361207 9.6122 0.844693C9.11902 1.05667 8.77136 1.29712 8.28021 1.76592L8.00082 2.03255L7.69193 1.73813C7.22285 1.29103 6.84847 1.03717 6.34329 0.82361C5.67377 0.540605 4.83235 0.4357 4.11267 0.545537ZM5.18983 1.81471C5.6146 1.88621 5.97242 2.02626 6.32123 2.25752C6.41593 2.32032 6.75168 2.62114 7.06734 2.92601C7.49995 3.3438 7.66954 3.48966 7.75606 3.51821C7.91588 3.57097 8.16562 3.56418 8.28695 3.50378C8.3422 3.47627 8.63275 3.21646 8.93263 2.92644C9.23251 2.63641 9.56387 2.33951 9.66899 2.26668C9.92155 2.09165 10.2406 1.94952 10.5793 1.86107C10.8149 1.79957 10.9162 1.789 11.2714 1.789C11.6304 1.789 11.7269 1.79929 11.9745 1.86378C13.2971 2.20837 14.1617 3.41998 14.0242 4.73611C13.9685 5.26869 13.7546 5.8099 13.4298 6.24023C13.1407 6.62315 12.2916 7.43773 11.1558 8.42167C10.0626 9.36882 8.04742 11.042 7.99999 11.042C7.98607 11.042 7.64785 10.7735 7.24839 10.4452C4.74098 8.38486 3.02781 6.84638 2.57925 6.25221C2.06877 5.576 1.86201 4.75167 2.00624 3.96759C2.26847 2.54182 3.71169 1.56586 5.18983 1.81471Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="goods__slide-image-wrapper">
+                                                    <div class="goods__slide-image-box">
+                                                        <img src="../images/swiper-img3.png" alt="" />
+                                                    </div>
+                                                    <button class="goods__slide-image-hover-btn">
+                                                        <img src="../icons/card-zoom.svg" alt="" class="goods__slide-image" />
+                                                        <p>Быстрый просмотр</p>
+                                                    </button>
+                                                    <div class="goods__slide-image-info-wrapper">
+                                                        <div class="goods__slide-image-info-box">
+                                                            <p class="goods__slide-image-info-text">Арт. 4501390</p>
+                                                        </div>
+                                                        <div class="goods__slide-image-info-box">
+                                                            <div class="goods__slide-image-info-svg-box">
+                                                                <img src="../icons/card-chat.svg" alt="" />
+                                                            </div>
+                                                            <p class="goods__slide-image-info-text">5</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods__slide-content-box">
+                                                    <p class="goods__slide-content-title">
+                                                        Тонометр механический CS Medica<br />
+                                                        CS-106 с фонедоскопом
+                                                    </p>
+                                                    <div class="goods__slide-content-info-box">
+                                                        <ul class="goods__slide-content-list">
+                                                            <li class="goods__slide-content-item goods__slide-content-item--inStock">
+                                                                В наличии
+                                                            </li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--hit">Хит</li> -->
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--not">
+                                                                Нет в наличии
+                                                            </li> -->
+                                                            <li class="goods__slide-content-item goods__slide-content-item--new">Новинка</li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--percent">%</li> -->
+                                                            <li class="goods__slide-content-item goods__slide-content-item--action">Акция</li>
+                                                        </ul>
+                                                        <div class="goods__slide-content-price-box">
+                                                            <p class="goods__slide-price-new">1 494 ₽<span>шт.</span></p>
+                                                            <p class="goods__slide-price-old">1 494 ₽</p>
+                                                        </div>
+                                                        <div class="goods__slide-order-wrapper">
+                                                            <button class="goods__slide-content-btn">
+                                                                <div class="goods__slide-content-btn-svg-box">
+                                                                    <img src="../icons/card-basket.svg" alt="" class="" />
+                                                                </div>
+                                                                <p class="goods__slide-content-btn-text">В корзину</p>
+                                                            </button>
+                                                            <div class="goods__slide-counter">
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--min">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="3"
+                                                                        viewBox="0 0 18 3"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <line
+                                                                            x1="1"
+                                                                            y1="1.50433"
+                                                                            x2="17"
+                                                                            y2="1.50433"
+                                                                            stroke="black"
+                                                                            stroke-width="2"
+                                                                            stroke-linecap="round"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                                <p class="goods__slide-counter-number">1</p>
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--plus">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="18"
+                                                                        viewBox="0 0 18 18"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M0 9.00433C0 8.45205 0.447715 8.00433 1 8.00433H17C17.5523 8.00433 18 8.45205 18 9.00433C18 9.55662 17.5523 10.0043 17 10.0043H1C0.447715 10.0043 0 9.55662 0 9.00433Z"
+                                                                            fill="black"
+                                                                        />
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M9 18.0043C8.44772 18.0043 8 17.5566 8 17.0043V1.00433C8 0.452049 8.44772 0.0043335 9 0.0043335C9.55228 0.0043335 10 0.452049 10 1.00433V17.0043C10 17.5566 9.55228 18.0043 9 18.0043Z"
+                                                                            fill="black"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="goods__swiper-slide swiper-slide">
+                                            <div class="goods__slide-inner">
+                                                <div class="goods__slide-btn-box">
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="12"
+                                                            height="13"
+                                                            viewBox="0 0 12 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M0 7.14346C0 6.76111 0.311454 6.45115 0.695653 6.45115C1.07985 6.45115 1.39131 6.76111 1.39131 7.14346V11.8101C1.39131 12.1925 1.07985 12.5024 0.695653 12.5024C0.311454 12.5024 0 12.1925 0 11.8101V7.14346Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M5.30439 1.19475C5.30439 0.812397 5.61584 0.502441 6.00004 0.502441C6.38424 0.502441 6.69569 0.812398 6.69569 1.19475V11.8101C6.69569 12.1925 6.38424 12.5024 6.00004 12.5024C5.61584 12.5024 5.30439 12.1925 5.30439 11.8101V1.19475Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M10.6087 4.37425C10.6087 3.9919 10.9201 3.68194 11.3043 3.68194C11.6885 3.68194 12 3.9919 12 4.37425V11.8101C12 12.1925 11.6885 12.5024 11.3043 12.5024C10.9201 12.5024 10.6087 12.1925 10.6087 11.8101V4.37425Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="16"
+                                                            height="13"
+                                                            viewBox="0 0 16 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                clip-rule="evenodd"
+                                                                d="M4.11267 0.545537C2.4224 0.803515 1.10545 2.02488 0.733163 3.67971C0.643227 4.07954 0.64469 4.84505 0.736176 5.2641C0.82878 5.68814 0.916965 5.93318 1.12674 6.34922C1.43431 6.95932 1.81337 7.40419 2.80587 8.31983C3.81999 9.25546 4.92777 10.2046 6.63577 11.6012C7.173 12.0405 7.65017 12.4192 7.69615 12.4428C7.81291 12.5027 8.08392 12.522 8.21418 12.4798C8.33135 12.4418 8.45015 12.3508 9.46315 11.5226C11.6235 9.75645 13.4183 8.17476 14.0809 7.45314C14.4781 7.02062 14.6866 6.72862 14.8892 6.32104C15.0788 5.93969 15.1757 5.66492 15.266 5.25184C15.3493 4.87069 15.3566 4.10091 15.2804 3.74211C15.0141 2.48948 14.2278 1.47333 13.1022 0.927359C11.9965 0.391055 10.7369 0.361207 9.6122 0.844693C9.11902 1.05667 8.77136 1.29712 8.28021 1.76592L8.00082 2.03255L7.69193 1.73813C7.22285 1.29103 6.84847 1.03717 6.34329 0.82361C5.67377 0.540605 4.83235 0.4357 4.11267 0.545537ZM5.18983 1.81471C5.6146 1.88621 5.97242 2.02626 6.32123 2.25752C6.41593 2.32032 6.75168 2.62114 7.06734 2.92601C7.49995 3.3438 7.66954 3.48966 7.75606 3.51821C7.91588 3.57097 8.16562 3.56418 8.28695 3.50378C8.3422 3.47627 8.63275 3.21646 8.93263 2.92644C9.23251 2.63641 9.56387 2.33951 9.66899 2.26668C9.92155 2.09165 10.2406 1.94952 10.5793 1.86107C10.8149 1.79957 10.9162 1.789 11.2714 1.789C11.6304 1.789 11.7269 1.79929 11.9745 1.86378C13.2971 2.20837 14.1617 3.41998 14.0242 4.73611C13.9685 5.26869 13.7546 5.8099 13.4298 6.24023C13.1407 6.62315 12.2916 7.43773 11.1558 8.42167C10.0626 9.36882 8.04742 11.042 7.99999 11.042C7.98607 11.042 7.64785 10.7735 7.24839 10.4452C4.74098 8.38486 3.02781 6.84638 2.57925 6.25221C2.06877 5.576 1.86201 4.75167 2.00624 3.96759C2.26847 2.54182 3.71169 1.56586 5.18983 1.81471Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="goods__slide-image-wrapper">
+                                                    <div class="goods__slide-image-box">
+                                                        <img src="../images/swiper-img4.png" alt="" />
+                                                    </div>
+                                                    <div class="goods__slide-image-hover-box">
+                                                        <button class="goods__slide-image-hover-btn">
+                                                            <img src="../icons/card-zoom.svg" alt="" class="goods__slide-image" />
+                                                            <p>Быстрый просмотр</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="goods__slide-image-info-wrapper">
+                                                        <div class="goods__slide-image-info-box">
+                                                            <p class="goods__slide-image-info-text">Арт. 4501390</p>
+                                                        </div>
+                                                        <div class="goods__slide-image-info-box">
+                                                            <div class="goods__slide-image-info-svg-box">
+                                                                <img src="../icons/card-chat.svg" alt="" />
+                                                            </div>
+                                                            <p class="goods__slide-image-info-text">5</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods__slide-content-box">
+                                                    <p class="goods__slide-content-title">Термометр мед.электр.WT-03</p>
+                                                    <div class="goods__slide-content-info-box">
+                                                        <ul class="goods__slide-content-list">
+                                                            <li class="goods__slide-content-item goods__slide-content-item--inStock">
+                                                                В наличии
+                                                            </li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--hit">Хит</li> -->
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--not">
+                                                                Нет в наличии
+                                                            </li> -->
+                                                            <li class="goods__slide-content-item goods__slide-content-item--new">Новинка</li>
+                                                            <!--  <li class="goods__slide-content-item goods__slide-content-item--percent">%</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--action">Акция</li> -->
+                                                        </ul>
+                                                        <div class="goods__slide-content-price-box">
+                                                            <p class="goods__slide-price-new">994 ₽<span>шт.</span></p>
+                                                            <p class="goods__slide-price-old">1 494 ₽</p>
+                                                        </div>
+                                                        <div class="goods__slide-order-wrapper">
+                                                            <button class="goods__slide-content-btn">
+                                                                <div class="goods__slide-content-btn-svg-box">
+                                                                    <img src="../icons/card-basket.svg" alt="" class="" />
+                                                                </div>
+                                                                <p class="goods__slide-content-btn-text">В корзину</p>
+                                                            </button>
+                                                            <div class="goods__slide-counter">
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--min">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="3"
+                                                                        viewBox="0 0 18 3"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <line
+                                                                            x1="1"
+                                                                            y1="1.50433"
+                                                                            x2="17"
+                                                                            y2="1.50433"
+                                                                            stroke="black"
+                                                                            stroke-width="2"
+                                                                            stroke-linecap="round"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                                <p class="goods__slide-counter-number">1</p>
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--plus">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="18"
+                                                                        viewBox="0 0 18 18"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M0 9.00433C0 8.45205 0.447715 8.00433 1 8.00433H17C17.5523 8.00433 18 8.45205 18 9.00433C18 9.55662 17.5523 10.0043 17 10.0043H1C0.447715 10.0043 0 9.55662 0 9.00433Z"
+                                                                            fill="black"
+                                                                        />
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M9 18.0043C8.44772 18.0043 8 17.5566 8 17.0043V1.00433C8 0.452049 8.44772 0.0043335 9 0.0043335C9.55228 0.0043335 10 0.452049 10 1.00433V17.0043C10 17.5566 9.55228 18.0043 9 18.0043Z"
+                                                                            fill="black"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="goods__swiper-slide swiper-slide">
+                                            <div class="goods__slide-inner">
+                                                <div class="goods__slide-btn-box">
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="12"
+                                                            height="13"
+                                                            viewBox="0 0 12 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M0 7.14346C0 6.76111 0.311454 6.45115 0.695653 6.45115C1.07985 6.45115 1.39131 6.76111 1.39131 7.14346V11.8101C1.39131 12.1925 1.07985 12.5024 0.695653 12.5024C0.311454 12.5024 0 12.1925 0 11.8101V7.14346Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M5.30439 1.19475C5.30439 0.812397 5.61584 0.502441 6.00004 0.502441C6.38424 0.502441 6.69569 0.812398 6.69569 1.19475V11.8101C6.69569 12.1925 6.38424 12.5024 6.00004 12.5024C5.61584 12.5024 5.30439 12.1925 5.30439 11.8101V1.19475Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M10.6087 4.37425C10.6087 3.9919 10.9201 3.68194 11.3043 3.68194C11.6885 3.68194 12 3.9919 12 4.37425V11.8101C12 12.1925 11.6885 12.5024 11.3043 12.5024C10.9201 12.5024 10.6087 12.1925 10.6087 11.8101V4.37425Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="16"
+                                                            height="13"
+                                                            viewBox="0 0 16 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                clip-rule="evenodd"
+                                                                d="M4.11267 0.545537C2.4224 0.803515 1.10545 2.02488 0.733163 3.67971C0.643227 4.07954 0.64469 4.84505 0.736176 5.2641C0.82878 5.68814 0.916965 5.93318 1.12674 6.34922C1.43431 6.95932 1.81337 7.40419 2.80587 8.31983C3.81999 9.25546 4.92777 10.2046 6.63577 11.6012C7.173 12.0405 7.65017 12.4192 7.69615 12.4428C7.81291 12.5027 8.08392 12.522 8.21418 12.4798C8.33135 12.4418 8.45015 12.3508 9.46315 11.5226C11.6235 9.75645 13.4183 8.17476 14.0809 7.45314C14.4781 7.02062 14.6866 6.72862 14.8892 6.32104C15.0788 5.93969 15.1757 5.66492 15.266 5.25184C15.3493 4.87069 15.3566 4.10091 15.2804 3.74211C15.0141 2.48948 14.2278 1.47333 13.1022 0.927359C11.9965 0.391055 10.7369 0.361207 9.6122 0.844693C9.11902 1.05667 8.77136 1.29712 8.28021 1.76592L8.00082 2.03255L7.69193 1.73813C7.22285 1.29103 6.84847 1.03717 6.34329 0.82361C5.67377 0.540605 4.83235 0.4357 4.11267 0.545537ZM5.18983 1.81471C5.6146 1.88621 5.97242 2.02626 6.32123 2.25752C6.41593 2.32032 6.75168 2.62114 7.06734 2.92601C7.49995 3.3438 7.66954 3.48966 7.75606 3.51821C7.91588 3.57097 8.16562 3.56418 8.28695 3.50378C8.3422 3.47627 8.63275 3.21646 8.93263 2.92644C9.23251 2.63641 9.56387 2.33951 9.66899 2.26668C9.92155 2.09165 10.2406 1.94952 10.5793 1.86107C10.8149 1.79957 10.9162 1.789 11.2714 1.789C11.6304 1.789 11.7269 1.79929 11.9745 1.86378C13.2971 2.20837 14.1617 3.41998 14.0242 4.73611C13.9685 5.26869 13.7546 5.8099 13.4298 6.24023C13.1407 6.62315 12.2916 7.43773 11.1558 8.42167C10.0626 9.36882 8.04742 11.042 7.99999 11.042C7.98607 11.042 7.64785 10.7735 7.24839 10.4452C4.74098 8.38486 3.02781 6.84638 2.57925 6.25221C2.06877 5.576 1.86201 4.75167 2.00624 3.96759C2.26847 2.54182 3.71169 1.56586 5.18983 1.81471Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="goods__slide-image-wrapper">
+                                                    <div class="goods__slide-image-box">
+                                                        <img src="../images/swiper-img5.png" alt="" />
+                                                    </div>
+                                                    <button class="goods__slide-image-hover-btn">
+                                                        <img src="../icons/card-zoom.svg" alt="" class="goods__slide-image" />
+                                                        <p>Быстрый просмотр</p>
+                                                    </button>
+                                                    <div class="goods__slide-image-info-wrapper">
+                                                        <div class="goods__slide-image-info-box">
+                                                            <p class="goods__slide-image-info-text">Арт. 4501390</p>
+                                                        </div>
+                                                        <div class="goods__slide-image-info-box">
+                                                            <div class="goods__slide-image-info-svg-box">
+                                                                <img src="../icons/card-chat.svg" alt="" />
+                                                            </div>
+                                                            <p class="goods__slide-image-info-text">5</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods__slide-content-box">
+                                                    <p class="goods__slide-content-title">
+                                                        Насадки CS Medica SP-12 для <br />
+                                                        зубной щетки CS Medica SonicPulsar CS-131
+                                                    </p>
+                                                    <div class="goods__slide-content-info-box">
+                                                        <ul class="goods__slide-content-list">
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--inStock">
+                                                                В наличии
+                                                            </li> -->
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--hit">Хит</li> -->
+                                                            <li class="goods__slide-content-item goods__slide-content-item--not">
+                                                                Нет в наличии
+                                                            </li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--new">Новинка</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--percent">%</li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--action">Акция</li> -->
+                                                        </ul>
+                                                        <div class="goods__slide-content-price-box">
+                                                            <p class="goods__slide-price-new">3 736 ₽<span>шт.</span></p>
+                                                            <p class="goods__slide-price-old">1 494 ₽</p>
+                                                        </div>
+                                                        <div class="goods__slide-order-wrapper">
+                                                            <button class="goods__slide-content-btn">
+                                                                <div class="goods__slide-content-btn-svg-box">
+                                                                    <img src="../icons/card-basket.svg" alt="" class="" />
+                                                                </div>
+                                                                <p class="goods__slide-content-btn-text">В корзину</p>
+                                                            </button>
+                                                            <div class="goods__slide-counter">
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--min">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="3"
+                                                                        viewBox="0 0 18 3"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <line
+                                                                            x1="1"
+                                                                            y1="1.50433"
+                                                                            x2="17"
+                                                                            y2="1.50433"
+                                                                            stroke="black"
+                                                                            stroke-width="2"
+                                                                            stroke-linecap="round"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                                <p class="goods__slide-counter-number">1</p>
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--plus">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="18"
+                                                                        viewBox="0 0 18 18"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M0 9.00433C0 8.45205 0.447715 8.00433 1 8.00433H17C17.5523 8.00433 18 8.45205 18 9.00433C18 9.55662 17.5523 10.0043 17 10.0043H1C0.447715 10.0043 0 9.55662 0 9.00433Z"
+                                                                            fill="black"
+                                                                        />
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M9 18.0043C8.44772 18.0043 8 17.5566 8 17.0043V1.00433C8 0.452049 8.44772 0.0043335 9 0.0043335C9.55228 0.0043335 10 0.452049 10 1.00433V17.0043C10 17.5566 9.55228 18.0043 9 18.0043Z"
+                                                                            fill="black"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="goods__swiper-slide swiper-slide">
+                                            <div class="goods__slide-inner">
+                                                <div class="goods__slide-btn-box">
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="12"
+                                                            height="13"
+                                                            viewBox="0 0 12 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M0 7.14346C0 6.76111 0.311454 6.45115 0.695653 6.45115C1.07985 6.45115 1.39131 6.76111 1.39131 7.14346V11.8101C1.39131 12.1925 1.07985 12.5024 0.695653 12.5024C0.311454 12.5024 0 12.1925 0 11.8101V7.14346Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M5.30439 1.19475C5.30439 0.812397 5.61584 0.502441 6.00004 0.502441C6.38424 0.502441 6.69569 0.812398 6.69569 1.19475V11.8101C6.69569 12.1925 6.38424 12.5024 6.00004 12.5024C5.61584 12.5024 5.30439 12.1925 5.30439 11.8101V1.19475Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M10.6087 4.37425C10.6087 3.9919 10.9201 3.68194 11.3043 3.68194C11.6885 3.68194 12 3.9919 12 4.37425V11.8101C12 12.1925 11.6885 12.5024 11.3043 12.5024C10.9201 12.5024 10.6087 12.1925 10.6087 11.8101V4.37425Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="16"
+                                                            height="13"
+                                                            viewBox="0 0 16 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                clip-rule="evenodd"
+                                                                d="M4.11267 0.545537C2.4224 0.803515 1.10545 2.02488 0.733163 3.67971C0.643227 4.07954 0.64469 4.84505 0.736176 5.2641C0.82878 5.68814 0.916965 5.93318 1.12674 6.34922C1.43431 6.95932 1.81337 7.40419 2.80587 8.31983C3.81999 9.25546 4.92777 10.2046 6.63577 11.6012C7.173 12.0405 7.65017 12.4192 7.69615 12.4428C7.81291 12.5027 8.08392 12.522 8.21418 12.4798C8.33135 12.4418 8.45015 12.3508 9.46315 11.5226C11.6235 9.75645 13.4183 8.17476 14.0809 7.45314C14.4781 7.02062 14.6866 6.72862 14.8892 6.32104C15.0788 5.93969 15.1757 5.66492 15.266 5.25184C15.3493 4.87069 15.3566 4.10091 15.2804 3.74211C15.0141 2.48948 14.2278 1.47333 13.1022 0.927359C11.9965 0.391055 10.7369 0.361207 9.6122 0.844693C9.11902 1.05667 8.77136 1.29712 8.28021 1.76592L8.00082 2.03255L7.69193 1.73813C7.22285 1.29103 6.84847 1.03717 6.34329 0.82361C5.67377 0.540605 4.83235 0.4357 4.11267 0.545537ZM5.18983 1.81471C5.6146 1.88621 5.97242 2.02626 6.32123 2.25752C6.41593 2.32032 6.75168 2.62114 7.06734 2.92601C7.49995 3.3438 7.66954 3.48966 7.75606 3.51821C7.91588 3.57097 8.16562 3.56418 8.28695 3.50378C8.3422 3.47627 8.63275 3.21646 8.93263 2.92644C9.23251 2.63641 9.56387 2.33951 9.66899 2.26668C9.92155 2.09165 10.2406 1.94952 10.5793 1.86107C10.8149 1.79957 10.9162 1.789 11.2714 1.789C11.6304 1.789 11.7269 1.79929 11.9745 1.86378C13.2971 2.20837 14.1617 3.41998 14.0242 4.73611C13.9685 5.26869 13.7546 5.8099 13.4298 6.24023C13.1407 6.62315 12.2916 7.43773 11.1558 8.42167C10.0626 9.36882 8.04742 11.042 7.99999 11.042C7.98607 11.042 7.64785 10.7735 7.24839 10.4452C4.74098 8.38486 3.02781 6.84638 2.57925 6.25221C2.06877 5.576 1.86201 4.75167 2.00624 3.96759C2.26847 2.54182 3.71169 1.56586 5.18983 1.81471Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="goods__slide-image-wrapper">
+                                                    <div class="goods__slide-image-box">
+                                                        <img src="../images/swiper-img4.png" alt="" />
+                                                    </div>
+                                                    <button class="goods__slide-image-hover-btn">
+                                                        <img src="../icons/card-zoom.svg" alt="" class="goods__slide-image" />
+                                                        <p>Быстрый просмотр</p>
+                                                    </button>
+                                                    <div class="goods__slide-image-info-wrapper">
+                                                        <div class="goods__slide-image-info-box">
+                                                            <p class="goods__slide-image-info-text">Арт. 4501390</p>
+                                                        </div>
+                                                        <div class="goods__slide-image-info-box">
+                                                            <div class="goods__slide-image-info-svg-box">
+                                                                <img src="../icons/card-chat.svg" alt="" />
+                                                            </div>
+                                                            <p class="goods__slide-image-info-text">5</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods__slide-content-box">
+                                                    <p class="goods__slide-content-title">Термометр мед.электр.WT-03</p>
+                                                    <div class="goods__slide-content-info-box">
+                                                        <ul class="goods__slide-content-list">
+                                                            <li class="goods__slide-content-item goods__slide-content-item--inStock">
+                                                                В наличии
+                                                            </li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--hit">Хит</li> -->
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--not">
+                                                                Нет в наличии
+                                                            </li> -->
+                                                            <li class="goods__slide-content-item goods__slide-content-item--new">Новинка</li>
+                                                            <!--  <li class="goods__slide-content-item goods__slide-content-item--percent">%</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--action">Акция</li> -->
+                                                        </ul>
+                                                        <div class="goods__slide-content-price-box">
+                                                            <p class="goods__slide-price-new">994 ₽<span>шт.</span></p>
+                                                            <p class="goods__slide-price-old">1 494 ₽</p>
+                                                        </div>
+                                                        <div class="goods__slide-order-wrapper">
+                                                            <button class="goods__slide-content-btn">
+                                                                <div class="goods__slide-content-btn-svg-box">
+                                                                    <img src="../icons/card-basket.svg" alt="" class="" />
+                                                                </div>
+                                                                <p class="goods__slide-content-btn-text">В корзину</p>
+                                                            </button>
+                                                            <div class="goods__slide-counter">
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--min">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="3"
+                                                                        viewBox="0 0 18 3"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <line
+                                                                            x1="1"
+                                                                            y1="1.50433"
+                                                                            x2="17"
+                                                                            y2="1.50433"
+                                                                            stroke="black"
+                                                                            stroke-width="2"
+                                                                            stroke-linecap="round"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                                <p class="goods__slide-counter-number">1</p>
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--plus">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="18"
+                                                                        viewBox="0 0 18 18"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M0 9.00433C0 8.45205 0.447715 8.00433 1 8.00433H17C17.5523 8.00433 18 8.45205 18 9.00433C18 9.55662 17.5523 10.0043 17 10.0043H1C0.447715 10.0043 0 9.55662 0 9.00433Z"
+                                                                            fill="black"
+                                                                        />
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M9 18.0043C8.44772 18.0043 8 17.5566 8 17.0043V1.00433C8 0.452049 8.44772 0.0043335 9 0.0043335C9.55228 0.0043335 10 0.452049 10 1.00433V17.0043C10 17.5566 9.55228 18.0043 9 18.0043Z"
+                                                                            fill="black"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="goods__swiper-slide swiper-slide">
+                                            <div class="goods__slide-inner">
+                                                <div class="goods__slide-btn-box">
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="12"
+                                                            height="13"
+                                                            viewBox="0 0 12 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M0 7.14346C0 6.76111 0.311454 6.45115 0.695653 6.45115C1.07985 6.45115 1.39131 6.76111 1.39131 7.14346V11.8101C1.39131 12.1925 1.07985 12.5024 0.695653 12.5024C0.311454 12.5024 0 12.1925 0 11.8101V7.14346Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M5.30439 1.19475C5.30439 0.812397 5.61584 0.502441 6.00004 0.502441C6.38424 0.502441 6.69569 0.812398 6.69569 1.19475V11.8101C6.69569 12.1925 6.38424 12.5024 6.00004 12.5024C5.61584 12.5024 5.30439 12.1925 5.30439 11.8101V1.19475Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                            <path
+                                                                d="M10.6087 4.37425C10.6087 3.9919 10.9201 3.68194 11.3043 3.68194C11.6885 3.68194 12 3.9919 12 4.37425V11.8101C12 12.1925 11.6885 12.5024 11.3043 12.5024C10.9201 12.5024 10.6087 12.1925 10.6087 11.8101V4.37425Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button class="goods__slide-btn">
+                                                        <svg
+                                                            width="16"
+                                                            height="13"
+                                                            viewBox="0 0 16 13"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                clip-rule="evenodd"
+                                                                d="M4.11267 0.545537C2.4224 0.803515 1.10545 2.02488 0.733163 3.67971C0.643227 4.07954 0.64469 4.84505 0.736176 5.2641C0.82878 5.68814 0.916965 5.93318 1.12674 6.34922C1.43431 6.95932 1.81337 7.40419 2.80587 8.31983C3.81999 9.25546 4.92777 10.2046 6.63577 11.6012C7.173 12.0405 7.65017 12.4192 7.69615 12.4428C7.81291 12.5027 8.08392 12.522 8.21418 12.4798C8.33135 12.4418 8.45015 12.3508 9.46315 11.5226C11.6235 9.75645 13.4183 8.17476 14.0809 7.45314C14.4781 7.02062 14.6866 6.72862 14.8892 6.32104C15.0788 5.93969 15.1757 5.66492 15.266 5.25184C15.3493 4.87069 15.3566 4.10091 15.2804 3.74211C15.0141 2.48948 14.2278 1.47333 13.1022 0.927359C11.9965 0.391055 10.7369 0.361207 9.6122 0.844693C9.11902 1.05667 8.77136 1.29712 8.28021 1.76592L8.00082 2.03255L7.69193 1.73813C7.22285 1.29103 6.84847 1.03717 6.34329 0.82361C5.67377 0.540605 4.83235 0.4357 4.11267 0.545537ZM5.18983 1.81471C5.6146 1.88621 5.97242 2.02626 6.32123 2.25752C6.41593 2.32032 6.75168 2.62114 7.06734 2.92601C7.49995 3.3438 7.66954 3.48966 7.75606 3.51821C7.91588 3.57097 8.16562 3.56418 8.28695 3.50378C8.3422 3.47627 8.63275 3.21646 8.93263 2.92644C9.23251 2.63641 9.56387 2.33951 9.66899 2.26668C9.92155 2.09165 10.2406 1.94952 10.5793 1.86107C10.8149 1.79957 10.9162 1.789 11.2714 1.789C11.6304 1.789 11.7269 1.79929 11.9745 1.86378C13.2971 2.20837 14.1617 3.41998 14.0242 4.73611C13.9685 5.26869 13.7546 5.8099 13.4298 6.24023C13.1407 6.62315 12.2916 7.43773 11.1558 8.42167C10.0626 9.36882 8.04742 11.042 7.99999 11.042C7.98607 11.042 7.64785 10.7735 7.24839 10.4452C4.74098 8.38486 3.02781 6.84638 2.57925 6.25221C2.06877 5.576 1.86201 4.75167 2.00624 3.96759C2.26847 2.54182 3.71169 1.56586 5.18983 1.81471Z"
+                                                                fill="#1A1A1A"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="goods__slide-image-wrapper">
+                                                    <div class="goods__slide-image-box">
+                                                        <img src="../images/swiper-img5.png" alt="" />
+                                                    </div>
+                                                    <button class="goods__slide-image-hover-btn">
+                                                        <img src="../icons/card-zoom.svg" alt="" class="goods__slide-image" />
+                                                        <p>Быстрый просмотр</p>
+                                                    </button>
+                                                    <div class="goods__slide-image-info-wrapper">
+                                                        <div class="goods__slide-image-info-box">
+                                                            <p class="goods__slide-image-info-text">Арт. 4501390</p>
+                                                        </div>
+                                                        <div class="goods__slide-image-info-box">
+                                                            <div class="goods__slide-image-info-svg-box">
+                                                                <img src="../icons/card-chat.svg" alt="" />
+                                                            </div>
+                                                            <p class="goods__slide-image-info-text">5</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods__slide-content-box">
+                                                    <p class="goods__slide-content-title">
+                                                        Насадки CS Medica SP-12 для <br />
+                                                        зубной щетки CS Medica SonicPulsar CS-131
+                                                    </p>
+                                                    <div class="goods__slide-content-info-box">
+                                                        <ul class="goods__slide-content-list">
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--inStock">
+                                                                В наличии
+                                                            </li> -->
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--hit">Хит</li> -->
+                                                            <li class="goods__slide-content-item goods__slide-content-item--not">
+                                                                Нет в наличии
+                                                            </li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--new">Новинка</li>
+                                                            <li class="goods__slide-content-item goods__slide-content-item--percent">%</li>
+                                                            <!-- <li class="goods__slide-content-item goods__slide-content-item--action">Акция</li> -->
+                                                        </ul>
+                                                        <div class="goods__slide-content-price-box">
+                                                            <p class="goods__slide-price-new">3 736 ₽<span>шт.</span></p>
+                                                            <p class="goods__slide-price-old">1 494 ₽</p>
+                                                        </div>
+                                                        <div class="goods__slide-order-wrapper">
+                                                            <button class="goods__slide-content-btn">
+                                                                <div class="goods__slide-content-btn-svg-box">
+                                                                    <img src="../icons/card-basket.svg" alt="" class="" />
+                                                                </div>
+                                                                <p class="goods__slide-content-btn-text">В корзину</p>
+                                                            </button>
+                                                            <div class="goods__slide-counter">
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--min">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="3"
+                                                                        viewBox="0 0 18 3"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <line
+                                                                            x1="1"
+                                                                            y1="1.50433"
+                                                                            x2="17"
+                                                                            y2="1.50433"
+                                                                            stroke="black"
+                                                                            stroke-width="2"
+                                                                            stroke-linecap="round"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                                <p class="goods__slide-counter-number">1</p>
+                                                                <button class="goods__slide-counter-btn goods__slide-counter-btn--plus">
+                                                                    <svg
+                                                                        width="18"
+                                                                        height="18"
+                                                                        viewBox="0 0 18 18"
+                                                                        fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M0 9.00433C0 8.45205 0.447715 8.00433 1 8.00433H17C17.5523 8.00433 18 8.45205 18 9.00433C18 9.55662 17.5523 10.0043 17 10.0043H1C0.447715 10.0043 0 9.55662 0 9.00433Z"
+                                                                            fill="black"
+                                                                        />
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            clip-rule="evenodd"
+                                                                            d="M9 18.0043C8.44772 18.0043 8 17.5566 8 17.0043V1.00433C8 0.452049 8.44772 0.0043335 9 0.0043335C9.55228 0.0043335 10 0.452049 10 1.00433V17.0043C10 17.5566 9.55228 18.0043 9 18.0043Z"
+                                                                            fill="black"
+                                                                        />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper__pagination-box">
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="form">
+                    <div class="form__container container">
+                        <div class="form__inner">
+                            <div class="form__title-box">
+                                <div class="form__title-img-box">
+                                    <img src="../icons/form-title-img.svg" alt="document" class="form__title-img" />
+                                </div>
+                                <div class="form__title-wrapper">
+                                    <h2 class="form__title">Не нашли ответа на свой вопрос?</h2>
+                                    <p class="form__title-desc">Напишите нам, и мы предоставим необходимую информацию.</p>
+                                </div>
+                            </div>
+                            <form action="" class="form__form">
+                                <div class="form__input-box">
+                                    <label class="form__input-label">
+                                        <input class="form__input form__input--required form__input-name" type="text" placeholder="Имя*" />
+                                        <span class="form__input-error-text">Поле обязательно к заполнению</span>
+                                    </label>
+                
+                                    <label class="form__input-label">
+                                        <input class="form__input form__input--required form__input-tel" type="tel" placeholder="Телефон*" />
+                                        <span class="form__input-error-text">Поле обязательно к заполнению</span>
+                                    </label>
+                
+                                    <label class="form__input-label">
+                                        <input class="form__input form__input--required form__input-email" type="text" placeholder="E-mail*" />
+                                        <span class="form__input-error-text">Поле обязательно к заполнению</span>
+                                    </label>
+                                    <textarea class="form__input form__input-textarea" placeholder="Вопрос"></textarea>
+                                </div>
+                                <div class="form__btn-box">
+                                    <button class="form__submit-btn" type="submit">Задать вопрос</button>
+                                    <label class="form__agree-label">
+                                        <input class="form__agree-checkbox" type="checkbox" />
+                                        <span class="form__agree-squere"></span>
+                                        <span class="form__agree-text"
+                                            >Я согласен с условиями <a href="#" class="form__agree-link">пользовательского соглашения.</a></span
+                                        >
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                
+                <div class="modal">
+                    <div class="modal__inner">
+                        <button class="modal__close-btn close-btn">
+                            <div class="modal__close-image-box">
+                                <svg  viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 3L13 13M13 3L3 13" stroke="#4092F1" stroke-width="2" stroke-linecap="round" />
+                                  </svg>
+                            </div>
+                        </button>
+                        <div class="modal__content">
+                            <div class="modal__content-img-box">
+                                <img src="../images/modal-thx.svg" alt="thx" class="modal__content-img" />
+                            </div>
+                            <div class="modal__text-box">
+                                <p class="modal__thx-text">Спасибо!</p>
+                                <p class="modal__disc-text">Вопрос отправлен</p>
+                            </div>
+                            <button class="modal__send-btn close-btn">Хорошо :)</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+    </body>
+</html>

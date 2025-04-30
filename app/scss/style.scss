@@ -1,0 +1,61 @@
+@import './libs/swiper-bundle.min';
+@import './mixins';
+
+@import './flexs';
+
+@import './fonts';
+@import './libs/set';
+
+
+body {
+
+  color: #000;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  position: relative;
+}
+
+* {
+  // outline:  1px solid red;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  section {
+    @include small-tablet {
+    }
+  }
+
+  &._first {
+    @include small-tablet {
+    }
+  }
+}
+
+.desktop {
+  display: flex;
+
+  @media (max-width: 48em) {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+
+  @media (max-width: 48em) {
+    display: flex;
+  }
+}
+
+@import './ui/ui';
+
+@import './dev/index.scss';
